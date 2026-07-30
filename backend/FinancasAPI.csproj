@@ -8,8 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Entity Framework Core com suporte ao PostgreSQL via Npgsql -->
-    <!-- Versão 9.x é compatível com .NET 10 e é a estável mais recente -->
+
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.7">
       <PrivateAssets>all</PrivateAssets>
@@ -17,7 +16,6 @@
     </PackageReference>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
 
-    <!-- Swagger/OpenAPI para documentação e testes da API -->
     <PackageReference Include="Swashbuckle.AspNetCore" Version="7.3.1" />
   </ItemGroup>
 
