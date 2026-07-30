@@ -8,7 +8,7 @@ Sistema full-stack de controle financeiro familiar com **ASP.NET Core 10**, **Po
 
 ```
 desafio-tecnico-TI/
-├── backend/          ← ASP.NET Core 8 Web API (C#)
+├── backend/          ← ASP.NET Core 10 Web API (C#)
 │   ├── Controllers/  ← Roteamento HTTP (sem lógica de negócio)
 │   ├── Services/     ← Regras de negócio (validação de idade, cascade, etc.)
 │   ├── Models/       ← Entidades do banco (Pessoa, Transacao)
